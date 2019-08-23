@@ -1,0 +1,14 @@
+.a{
+  width:200px;
+  height:200px;
+  background-color: black;
+  position: relative;
+}
+.b{
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  top:50%;
+  transform:translateX(-50%)
+}

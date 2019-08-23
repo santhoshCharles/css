@@ -1,0 +1,27 @@
+
+.box { 
+display: inline-block;
+position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  animation: frame 2s ease-in-out 0s infinite
+}
+
+@keyframes frame {
+  10% {
+    height: 100px
+  }
+  25% {
+    height: 200px;
+    background-color: pink;
+  }
+  50% {
+    height: 200px;
+    background-color: blue;
+  }
+  to {
+    height: 400px;
+    background-color: green;
+  }
+}
