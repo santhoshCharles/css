@@ -1,0 +1,24 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: gray;
+}
+.water {
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.water h {
+  position: relative;
+  font-size: 10rem;
+  /* background-image: url(Dollarphotoclub_57954146.jpg); */
+  background-repeat: repeat-x;
+}
+img {
+  position: absolute;
+  width: 10rem;
+}
